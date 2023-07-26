@@ -1,0 +1,44 @@
+XPath
+Absolute xpath - /html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[7]/span/span[3]/input
+
+Relative xpath - 
+//tagname[@attribute='']
+//tagname[text()='']
+
+Grouping the xpath --> starts at 1
+(//input[@name='sex'])[3]
+
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
+upload
+//input[@type='file']
+
+
+
+Example: To validate use chrome --> ctrl+f
+//input[@value='-1']
+
+//a[@class='newclose']
+
+//span[text()='Login']
+
+//img[@alt='Go']
+
+//frame[@name='login_page']
+//frame[contains(@src,'RSNBLogin')]
+
+---------------------------
+CSS - https://www.w3schools.com/cssref/css_selectors.php
+
+#id
+.classname
+tagname[attribute='']
+[attribute='']
+
+Example:
+#clearPass
+input[name='clearPass']
+[name='clearPass']
+
