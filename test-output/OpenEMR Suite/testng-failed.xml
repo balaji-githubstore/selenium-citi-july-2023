@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenEMR Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="Login UI Test(failed)">
+    <classes>
+      <class name="com.citi.test.LoginUserInterfaceTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="titleTest"/>
+          <include name="setup"/>
+          <include name="appDescriptionTest"/>
+        </methods>
+      </class> <!-- com.citi.test.LoginUserInterfaceTest -->
+    </classes>
+  </test> <!-- Login UI Test(failed) -->
+</suite> <!-- Failed suite [OpenEMR Suite] -->
